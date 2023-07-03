@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './MovieCard.scss'
 const MovieCard = (props) => {
-  console.log('reachedd');
   const {data} =props
   return (
     <div className="card-item">
