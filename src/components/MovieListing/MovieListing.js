@@ -8,8 +8,7 @@ const MovieListing = () => {
 const movies =useSelector(getAllMovies)
 const shows =useSelector(getAllShows)
 let renderMovies,renderShows =""
-console.log('saanam vannaa',shows);
-console.log('saanam movies vannaa',movies);
+
 renderMovies =
  movies.Response === "True" ? (
   movies.Search.map((movie,index)=>(

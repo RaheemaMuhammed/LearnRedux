@@ -20,7 +20,6 @@ const Home = () => {
         ).catch((err)=>{
           console.log('err:',err);
         })
-          console.log('the response from api',response);
           dispatch(addMovies(response.data))
    }
   
@@ -31,7 +30,6 @@ const Home = () => {
       ).catch((err)=>{
         console.log('err:',err);
       })
-        console.log('the response from api shows',response);
         dispatch(addShows(response.data)) 
         
  }
